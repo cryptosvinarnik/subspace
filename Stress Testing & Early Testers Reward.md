@@ -38,13 +38,11 @@ WantedBy=multi-user.target" > /etc/systemd/system/subspace-node.service
 
 Restart the node
 
-```sudo systemctl daemon-reload
-sudo systemctl restart subspace-node
 ```
-
-If a warning appears, you need to enter this command and restart the node service:
-
-```sudo systemctl daemon-reload```
+sudo systemctl daemon-reload
+sudo systemctl restart subspace-node
+sudo systemctl restart subspace-farmer
+```
 
 
 ## Useful Commands
