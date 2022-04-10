@@ -3,7 +3,7 @@
 
 **Setting the node name**
 
-```$NODE_NAME="node name"```
+```NODE_NAME="node name"```
 
 **Stop the node**
 
