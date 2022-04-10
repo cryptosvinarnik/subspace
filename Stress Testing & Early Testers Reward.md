@@ -11,7 +11,8 @@
 
 **Update the service file**
 
-```printf "[Unit]
+```
+printf "[Unit]
 Description=Subspace Node
 After=network.target
 [Service]
