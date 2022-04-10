@@ -44,7 +44,7 @@ sudo systemctl restart subspace-node
 
 If a warning appears, you need to enter this command and restart the node service:
 
-```systemctl daemon-reload```
+```sudo systemctl daemon-reload```
 
 
 ## Useful Commands
