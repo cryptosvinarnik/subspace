@@ -44,6 +44,20 @@ sudo systemctl restart subspace-node
 sudo systemctl restart subspace-farmer
 ```
 
+Sometimes there may be errors with the user and blocks. I advise you to study the errors in more detail, but you can still use my method:
+
+*Fix error with a group*
+```
+sudo addgroup p2p 
+sudo adduser subspace --ingroup p2p --disabled-password --disabled-login --shell /usr/sbin/nologin --gecos ""
+```
+
+*Fix error with a blocks*
+```
+subspace-farmer erase-plot
+```
+
+After that we do a restart.
 
 ## Useful Commands
 
